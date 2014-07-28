@@ -1,20 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿// --------------------------------------------------------------------------
+// <copyright file="HomeController.cs" company="XxxAM">
+//   Copyright (c) XxxAM. All rights reserved.
+// </copyright>
+// <summary>
+//   The home controller.
+// </summary>
+// --------------------------------------------------------------------------
 
 namespace Mvc2v35.Controllers {
+  using System.Web.Mvc;
+
+  /// <summary>The home controller.</summary>
   [HandleError]
   public class HomeController : Controller {
-    public ActionResult Index() {
-      ViewData["Message"] = "Willkommen bei ASP.NET MVC";
 
-      return View();
+    /// <summary>The index.</summary>
+    /// <returns>The <see cref="ActionResult"/>.</returns>
+    public ActionResult Index() {
+      this.ViewData["Message"] = "Willkommen bei ASP.NET MVC";
+
+      return this.View();
     }
 
+    /// <summary>The about.</summary>
+    /// <returns>The <see cref="ActionResult"/>.</returns>
     public ActionResult About() {
-      return View();
+      return this.View();
     }
   }
 }
