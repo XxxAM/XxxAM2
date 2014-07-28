@@ -1,13 +1,4 @@
-﻿// --------------------------------------------------------------------------
-// <copyright file="Controller.cs" company="XxxAM">
-//   Copyright (c) XxAM. All rights reserved.
-// </copyright>
-// <summary>
-//   Defines the Controller type.
-// </summary>
-// --------------------------------------------------------------------------
-
-namespace System.Web.Mvc {
+﻿namespace System.Web.Mvc {
 
   using System;
   using System.Diagnostics.CodeAnalysis;
