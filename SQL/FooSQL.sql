@@ -1,3 +1,4 @@
+-- SQL Statement for single relation.
 
 USE Northwind
 GO
